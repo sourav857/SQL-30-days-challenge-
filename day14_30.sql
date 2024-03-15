@@ -1,4 +1,7 @@
-
+ --In the given input table,some of the invoice are missing,write a sql query to identify the missing serial number
+  --As an assumption consider the serial number with lowest generated value to be first generated invoice and the highest serial number
+  --value to be the last generated invoice
+  
 drop table if exists invoice;
 create table invoice
 (
